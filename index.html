@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
         <link rel="shortcut icon" type="image/svg" href="./imagenes/monogram.svg"/>   
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     </head>
     
     <body>
@@ -48,11 +49,11 @@
         </header>
         <main>
             <section class="seccion1">
-                <div class="seccion1-textos">
+                <div data-aos="fade-right" data-aos-duration="2500" class="seccion1-textos">
                     <h1>Juan <br>Jacobo <br> Viera</h1>
                     <h3>DISEÑADOR WEB</h3>
                 </div>
-                <div class="seccion1-img"> 
+                <div data-aos="fade-left" data-aos-duration="2500" class="seccion1-img"> 
                     <img src="./imagenes/macbook-16121 (1).png" alt="portatil" width="700px" height="">
                 </div>
             </section>
@@ -156,6 +157,10 @@
                 </div>
             </div>
         </footer>
-       
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     </body>
 </html>
